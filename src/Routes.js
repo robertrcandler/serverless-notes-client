@@ -9,9 +9,8 @@ export default function Routes() {
     <Switch>
       <Route exact path="/">
         <Home />
-      </Route>
-      {/* Finally, catch all unmatched routes */}
-      <Route>
+      {/* </Route>
+      <Route> */}
         <NotFound />
       </Route>
       <Route exact path="/login">
