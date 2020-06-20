@@ -13,7 +13,6 @@ export default function Routes() {
     <Switch>
       <Route exact path="/">
         <Home />
-        <NotFound />
       </Route>
       <Route exact path="/login">
         <Login />
@@ -29,6 +28,9 @@ export default function Routes() {
       </Route>
       <Route exact path="/notes/:id">
         <Notes />
+      </Route>
+      <Route>
+        <NotFound />
       </Route>
     </Switch>
   );
