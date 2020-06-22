@@ -167,7 +167,5 @@ export default function Notes() {
         </form>
       )}
     </div>
-  );  return (
-    <div className="Notes"></div>
   );
 }
